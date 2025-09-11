@@ -1,0 +1,20 @@
+{
+    "name": "imanturbo/layout-features",
+    "description": "Layout feature for inmanturbo/features and the laravel-starter-kits",
+    "type": "library",
+    "require": {
+        "inmanturbo/features": "^0.03.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imanturbo\\LayoutFeatures\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "inmanturbo"
+        }
+    ],
+    "minimum-stability": "stable"
+}
