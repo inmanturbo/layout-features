@@ -24,7 +24,7 @@ php artisan vendor:publish --tag=layout-config
 
 This will publish the `layout.php` configuration file to your `config` directory.
 
-### Publish the views:
+### Publish the view examples:
 
 ```bash
 php artisan vendor:publish --tag=layout-views
