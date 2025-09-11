@@ -8,7 +8,7 @@ return [
     // 'default' => new Layout(
     //     'default',
     //     'Default',
-    //     'layouts.features.default',
+    //     'examples.layout-features.default',
     //     'The default layout option. Minimal margins on desktops.',
     //     'bars-3-center-left',
     // ),
@@ -17,21 +17,21 @@ return [
         // 'default' => new Layout(
         //     'default',
         //     'Default',
-        //     'layouts.features.default',
+        //     'examples.layout-features.default',
         //     'The default layout option. Minimal margins on desktops.',
         //     'bars-3-center-left',
         // ),
         // 'centered' => new Layout(
         //     'centered',
         //     'Centered',
-        //     'layouts.features.centered',
+        //     'examples.layout-features.centered',
         //     'The same as default, with the content centered.',
         //     'bars-3',
         // ),
         // 'sidebar' => new Layout(
         //     'sidebar',
         //     'Sidebar',
-        //     'layouts.features.centered',
+        //     'examples.layout-features.centered',
         //     'Navigate using a sidebar.',
         //     'bars-3-bottom-left',
         // ),
