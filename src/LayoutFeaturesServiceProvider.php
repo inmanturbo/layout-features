@@ -25,7 +25,7 @@ class LayoutFeaturesServiceProvider extends ServiceProvider
         if (! config('layout.active')) {
             return;
         }
-        
+
         Feature::define('layout', function (mixed $scope) {
             return config('layout.default')->name;
         });

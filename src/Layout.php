@@ -3,17 +3,17 @@
 namespace Inmanturbo\LayoutFeatures;
 
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Log;
 use Inmanturbo\Features\FeatureRegistry;
 use Laravel\Pennant\Feature;
 
 class Layout
 {
-    static array $options = [];
+    /** @var array<string, Layout> */
+    public static array $options = [];
 
     /**
-    * Create a new class instance.
-    */
+     * Create a new class instance.
+     */
     public function __construct(
         public readonly string $driver,
         public readonly string $name,
@@ -32,6 +32,7 @@ class Layout
 
         if ($layout === 'default') {
             FeatureRegistry::resetDefaults($scope, 'layout');
+
             return 'default';
         }
 
@@ -55,8 +56,18 @@ class Layout
         return static::currentLayout()?->component;
     }
 
-    public static function LayoutOptions()
+    public static function layoutOptions()
     {
         return array_merge(config('layout.options'), static::$options);
+    }
+
+    public static function addOption(string $name, Layout $layout): void
+    {
+        static::$options[$name] = $layout;
+    }
+
+    public static function addOptions(array $options): void
+    {
+        static::$options = array_merge(static::$options, $options);
     }
 }
