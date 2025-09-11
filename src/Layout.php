@@ -15,8 +15,8 @@ class Layout
      * Create a new class instance.
      */
     public function __construct(
-        public readonly string $driver,
         public readonly string $name,
+        public readonly string $label,
         public readonly string $component,
         public readonly ?string $description,
         public readonly ?string $icon = null,
