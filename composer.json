@@ -3,7 +3,7 @@
     "description": "Layout feature for inmanturbo/features and the laravel-starter-kits",
     "type": "library",
     "require": {
-        "inmanturbo/features": "^0.04.0"
+        "inmanturbo/features": "^0.04"
     },
     "license": "MIT",
     "autoload": {
