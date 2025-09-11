@@ -24,7 +24,7 @@ new class extends Component {
 
 
 <flux:radio.group x-data variant="segmented" wire:model.live="currentLayout">
-    @foreach(Inmanturbo\Layout::layoutOptions() as $layoutOption)
+    @foreach(\Inmanturbo\LayoutFeatures\Layout::layoutOptions() as $layoutOption)
         <flux:radio 
             :value="$layoutOption->driver" 
             :label="$layoutOption->name" 
