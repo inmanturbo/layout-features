@@ -1,9 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Auth;
-use Inmanturbo\Features\FeatureRegistry;
 use Inmanturbo\LayoutFeatures\Layout;
-use Laravel\Pennant\Feature;
 use Livewire\Volt\Component;
 
 new class extends Component {
