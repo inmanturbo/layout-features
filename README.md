@@ -16,7 +16,7 @@ The service provider will be automatically registered thanks to Laravel's packag
 
 ## Publishing Assets
 
-### Publish the configuration file:
+### Publish the configuration file
 
 ```bash
 php artisan vendor:publish --tag=layout-config
@@ -24,7 +24,7 @@ php artisan vendor:publish --tag=layout-config
 
 This will publish the `layout.php` configuration file to your `config` directory.
 
-### Publish the view examples:
+### Publish the view examples
 
 ```bash
 php artisan vendor:publish --tag=layout-views
