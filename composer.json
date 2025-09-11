@@ -1,5 +1,5 @@
 {
-    "name": "Inmanturbo/layout-features",
+    "name": "inmanturbo/layout-features",
     "description": "Layout feature for inmanturbo/features and the laravel-starter-kits",
     "type": "library",
     "require": {
